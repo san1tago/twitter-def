@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        
+        "src": "twitter.html",
+        "use": "@now/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "twitter.html"
+      }
+    ]
+}
