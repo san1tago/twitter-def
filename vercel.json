@@ -3,14 +3,14 @@
     "builds": [
       {
         
-        "src": "twitter.html",
+        "src": "index.html",
         "use": "@now/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "twitter.html"
+        "dest": "index.html"
       }
     ]
 }
